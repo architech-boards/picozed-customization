@@ -1,4 +1,4 @@
-On @board@ the same USB-UART port (**J2**) used for power-on is used also for serial console.
+On @board@ the USB-UART port is used for serial console.
 
 .. image:: _static/board-uart.jpg
 
