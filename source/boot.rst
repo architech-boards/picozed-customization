@@ -1,6 +1,10 @@
 Let's boot
 ==========
 
+In order to use the Picozed you have to plugin in it into the carrier board.
+
+.. image:: _static/carrier-board.jpg
+
 To properly boot the board, you need several components:
 
 * an **SD card**,

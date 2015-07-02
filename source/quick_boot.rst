@@ -1,3 +1,7 @@
+In order to use the Picozed you have to plugin in it into the carrier board.
+
+.. image:: _static/carrier-board.jpg
+
 Make sure that @board@ boot mode SW switches are set like in the following picture:
 
 .. image:: _static/sdcard-jumpers.jpg
