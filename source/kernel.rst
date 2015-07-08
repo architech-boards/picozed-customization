@@ -36,8 +36,8 @@ and by properly patching the sources:
 .. host::
 
  | patch -p1 < ~/architech_sdk/architech/picozed/yocto/meta-picozed/recipes-kernel/linux/linux-xlnx/3.14/picozed.patch
- | patch -p1 < ~/home/architech/architech_sdk/architech/picozed/yocto/meta-xilinx/recipes-kernel/linux/linux-xlnx/3.14/usb-host-zynq-dr-of-PHY-reset-during-probe.patch
- | patch -p1 < ~/home/architech/architech_sdk/architech/picozed/yocto/meta-xilinx/recipes-kernel/linux/linux-xlnx/3.14/tty-xuartps-Fix-RX-hang-and-TX-corruption-in-set_termios.patch
+ | patch -p1 < ~/architech_sdk/architech/picozed/yocto/meta-xilinx/recipes-kernel/linux/linux-xlnx/3.14/usb-host-zynq-dr-of-PHY-reset-during-probe.patch
+ | patch -p1 < ~/architech_sdk/architech/picozed/yocto/meta-xilinx/recipes-kernel/linux/linux-xlnx/3.14/tty-xuartps-Fix-RX-hang-and-TX-corruption-in-set_termios.patch
  | cp ~/architech_sdk/architech/picozed/yocto/meta-picozed/recipes-kernel/linux/linux-xlnx/3.14/config .config
 
 
@@ -50,7 +50,7 @@ If you don't use our SDK then use the following commands to patch the sources:
  | cd meta-xilinx
  | git checkout 2af8d2a0e63aa371045895da03ba2bf98b51adb4
 
-Source the script to load the proper evironment for the cross-toolchain (see :ref:`manual_compilation_label`Section) and you are ready to customize and compile the kernel:
+Source the script to load the proper evironment for the cross-toolchain (see :ref:`manual_compilation_label` Section) and you are ready to customize and compile the kernel:
 
 .. host::
  
