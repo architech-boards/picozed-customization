@@ -9,7 +9,7 @@ To properly boot the board, you need several components:
 
 * an **SD card**,
 
-* file **BOOT.BIN**,
+* file **BOOT.BIN**, (if you don't want to use u-boot from the flash)
 
 * the **Linux kernel image**,
 
