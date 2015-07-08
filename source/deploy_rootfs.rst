@@ -21,6 +21,10 @@ Internet:
 * `Download file uEnv.txt <_static/uEnv.txt>`_
 
 And build by yourself the boot.bin file, see xilinx documentation :ref:`documentation <bootbin_label>`.
+Alternatively in the PicoZed flash is present the u-boot that you can use by setting the SW1 switch (on the Picozed) in this way:
+
+.. image:: _static/sdcard-jumpers.jpg
+
 Now, we assume that the first partition of the SD card gets mounted (in your SDK virtual machine)
 under:
 
@@ -28,7 +32,7 @@ under:
 
  | /media/boot
 
-while the second partition gets mounted under:
+while the second partition gets mounted under:sdcard-jumpers.jpg
 
 .. host::
 
@@ -43,9 +47,8 @@ Ok then, we can finally deploy bootloader and kernel on the first partition of t
 
 .. host::
 
- | cp /home/@user@/Documents/@board-alias@/BOOT.BIN /media/boot/
  | cp /home/@user@/Documents/@board-alias@/uEnv.txt /media/boot/
- | cp /home/@user@/architech_sdk/architech/@board-alias@/yocto/build/tmp/deploy/images/@machine-name@/picozed-zynq7.dtb /media/boot/devicetree.dtb
+ | cp /home/@user@/architech_sdk/architech/@board-alias@/yocto/build/tmp/deploy/images/@machine-name@/uImage-picozed-zynq7.dtb /media/boot/
  | cp /home/@user@/architech_sdk/architech/@board-alias@/yocto/build/tmp/deploy/images/@machine-name@/uImage /media/boot/
 
 and the root file system on the second partition of the SD card:

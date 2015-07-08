@@ -8,7 +8,7 @@
 @board@;Picozed
 @meta-layer@;meta-xilinx
 @manifest-repository@;picozed-manifest
-@machine-name@;microzed
+@machine-name@;picozed-zynq7
 @board-splashscreen@;picozed-splashscreen
 @user@;architech
 @user-password@;architech
@@ -27,7 +27,7 @@
 @unboxing@;unboxing
 @quick-lan-connector@;J11
 @qt-libs-alias@;Picozed
-@arm-toolchain-directory@;armv7a-vfp-neon-poky-linux-gnueabi
+@arm-toolchain-directory@;cortexa9-vfp-neon-poky-linux-gnueabi
 @quickstart-image-extension@;tar.gz
 @quickstart-image-tar-options@;-xzf
 @meta-layer-remote@;git://git.yoctoproject.org

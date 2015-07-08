@@ -192,7 +192,7 @@ Ok then, we can finally deploy bootloader and kernel on the first partition of t
 
 .. host::
 
- | cp /path/to/BOOT.BIN /media/boot/
+ | cp /home/@user@/Documents/@board-alias@/BOOT.BIN /media/boot/
  | cp /home/@user@/Documents/@board-alias@/uEnv.txt /media/boot/
  | cp /home/@user@/Documents/@board-alias@/devicetree.dtb /media/boot/
  | cp /home/@user@/architech_sdk/architech/@board-alias@/yocto/build/tmp/deploy/images/@machine-name@/uImage /media/boot/

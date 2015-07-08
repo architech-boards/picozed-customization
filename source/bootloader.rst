@@ -16,14 +16,14 @@ ways to do that:
 
 .. host::
 
- | /path/to/build/tmp/work/microzed-poky-linux-gnueabi/u-boot-xlnx/v2014.01-xilinx+gitAUTOINC+2a0536fa48-r0/git
+ | /path/to/build/tmp/work/picozed_zynq7-poky-linux-gnueabi/u-boot-spl-xlnx/v2015.01-xilinx+gitAUTOINC+58359ed548-r0/git
 
 
 this means that within the virtual machine you will find them under:
 
 .. host::
 
- | /home/@user@/architech_sdk/architech/@board-alias@/yocto/build/tmp/work/microzed-poky-linux-gnueabi/u-boot-xlnx/v2014.01-xilinx+gitAUTOINC+2a0536fa48-r0/git
+ | /home/@user@/architech_sdk/architech/@board-alias@/yocto/build/tmp/work/picozed_zynq7-poky-linux-gnueabi/u-boot-spl-xlnx/v2015.01-xilinx+gitAUTOINC+58359ed548-r0/git
 
 
 We suggest you to **don't work under Bitbake build directory**, you will pay a speed penalty
