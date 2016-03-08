@@ -104,7 +104,7 @@ You can get the Device Tree Blob file from here:
 
 You can get the corresponding Device Tree Source from here:
 
- `Download devicetree.dts <_static/devicetree.dts>`_
+ `Download devicetree.zip <_static/devicetree.zip>`_
 
 Bootscript
 ----------
